@@ -125,7 +125,7 @@ function NavbarAdm() {
                         menuVariant="dark"
                         align="end"
                       >
-                        <NavDropdown.Item href="/add-film-list">
+                        <NavDropdown.Item as={Link} to="/add-film-list">
                           <img
                             src={Images.Film}
                             alt=""
