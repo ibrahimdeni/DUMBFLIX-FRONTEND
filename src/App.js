@@ -75,123 +75,123 @@ function App() {
   return (
     <Routes>
       <>
-        {isLoading ? (
+        {/* {isLoading ? (
           <></>
         ) : (
-          <>
-            <Route />
+          <> */}
+        <Route />
 
-            {/* FOR USER */}
-            <Route
-              path="/"
-              element={
-                state.isAdmin ? (
-                  <LayoutAdm>
-                    <Home />
-                  </LayoutAdm>
-                ) : (
-                  <Layout>
-                    <Home />
-                  </Layout>
-                )
-              }
-            />
+        {/* FOR USER */}
+        <Route
+          path="/"
+          element={
+            state.isAdmin ? (
+              <LayoutAdm>
+                <Home />
+              </LayoutAdm>
+            ) : (
+              <Layout>
+                <Home />
+              </Layout>
+            )
+          }
+        />
 
-            <Route
-              path="/movies"
-              element={
-                <Layout>
-                  <Movies />
-                </Layout>
-              }
-            />
+        <Route
+          path="/movies"
+          element={
+            <Layout>
+              <Movies />
+            </Layout>
+          }
+        />
 
-            <Route
-              path="/tvshows"
-              element={
-                <Layout>
-                  <TvShows />
-                </Layout>
-              }
-            />
+        <Route
+          path="/tvshows"
+          element={
+            <Layout>
+              <TvShows />
+            </Layout>
+          }
+        />
 
-            {/* <Route element={<PrivateRoute isLogged={isLogged} />}> */}
-            <Route
-              path="/payment"
-              element={
-                <Layout>
-                  <Payment />
-                </Layout>
-              }
-            />
-            {/* </Route> */}
+        {/* <Route element={<PrivateRoute isLogged={isLogged} />}> */}
+        <Route
+          path="/payment"
+          element={
+            <Layout>
+              <Payment />
+            </Layout>
+          }
+        />
+        {/* </Route> */}
 
-            {/* <Route element={<PrivateRoute isLogged={isLogged} />}> */}
-            <Route
-              path="/video/:id"
-              element={
-                <Layout>
-                  <VideoDetail />
-                </Layout>
-              }
-            />
-            {/* </Route> */}
+        {/* <Route element={<PrivateRoute isLogged={isLogged} />}> */}
+        <Route
+          path="/video/:id"
+          element={
+            <Layout>
+              <VideoDetail />
+            </Layout>
+          }
+        />
+        {/* </Route> */}
 
-            <Route
-              path="/profile"
-              element={
-                <Layout>
-                  <Profile />
-                </Layout>
-              }
-            />
+        <Route
+          path="/profile"
+          element={
+            <Layout>
+              <Profile />
+            </Layout>
+          }
+        />
 
-            {/* FOR ADMIN */}
-            {/* <Route element={<PrivateRoute isLogged={isLogged} />}> */}
-            <Route
-              path="/admin"
-              element={
-                <LayoutAdm>
-                  <AdminHome />
-                </LayoutAdm>
-              }
-            />
-            {/* </Route> */}
+        {/* FOR ADMIN */}
+        {/* <Route element={<PrivateRoute isLogged={isLogged} />}> */}
+        <Route
+          path="/admin"
+          element={
+            <LayoutAdm>
+              <AdminHome />
+            </LayoutAdm>
+          }
+        />
+        {/* </Route> */}
 
-            {/* <Route element={<PrivateRoute isLogged={isLogged} />}> */}
-            <Route
-              path="/transaction"
-              element={
-                <LayoutAdm>
-                  <IncomingTransactions />
-                </LayoutAdm>
-              }
-            />
-            {/* </Route> */}
+        {/* <Route element={<PrivateRoute isLogged={isLogged} />}> */}
+        <Route
+          path="/transaction"
+          element={
+            <LayoutAdm>
+              <IncomingTransactions />
+            </LayoutAdm>
+          }
+        />
+        {/* </Route> */}
 
-            <Route element={<PrivateRoute isLogged={isLogged} />}>
-              <Route
-                path="/add-film-list"
-                element={
-                  <LayoutAdm>
-                    <AddFilmList />
-                  </LayoutAdm>
-                }
-              />
-            </Route>
+        <Route element={<PrivateRoute isLogged={isLogged} />}>
+          <Route
+            path="/add-film-list"
+            element={
+              <LayoutAdm>
+                <AddFilmList />
+              </LayoutAdm>
+            }
+          />
+        </Route>
 
-            <Route element={<PrivateRoute isLogged={isLogged} />}>
-              <Route
-                path="/add-film"
-                element={
-                  <LayoutAdm>
-                    <AddFilm />
-                  </LayoutAdm>
-                }
-              />
-            </Route>
+        <Route element={<PrivateRoute isLogged={isLogged} />}>
+          <Route
+            path="/add-film"
+            element={
+              <LayoutAdm>
+                <AddFilm />
+              </LayoutAdm>
+            }
+          />
+        </Route>
 
-            {/* <Route
+        {/* <Route
           path="/video-adm"
           element={
             <LayoutAdm>
@@ -199,8 +199,8 @@ function App() {
             </LayoutAdm>
           }
         /> */}
-          </>
-        )}
+        {/* </>
+        )} */}
       </>
     </Routes>
   );
