@@ -26,7 +26,7 @@ function Profile() {
       <Container>
         <Row className="justify-content-center">
           <Col md={8} className="mt-5 mb-5">
-            <Card className="rounded shadow border-0 bg-dark text-white p-5">
+            <Card className="rounded shadow border-0 bg-danger text-white p-5">
               <div className="d-flex justify-content-between">
                 <div className="me-5">
                   <h3>Personal Info</h3>
