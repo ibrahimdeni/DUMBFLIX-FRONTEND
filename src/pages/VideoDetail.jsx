@@ -74,11 +74,7 @@ function VideoDetail() {
           </div>
 
           <div className="cardEpisode mt-5">
-            <img
-              src={films?.thumbnailfilm}
-              alt="episode"
-              className="imgEpisode"
-            />
+            <img src={films?.image} alt="episode" className="imgEpisode" />
             <small className="text-light">{films?.title}</small>
           </div>
         </div>
