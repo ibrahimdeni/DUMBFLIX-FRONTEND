@@ -1,0 +1,167 @@
+.btn-regis {
+  color: rgb(199, 0, 0) !important;
+}
+
+.btn-login {
+  background-color: #e50914;
+}
+
+.hero {
+  width: 45%;
+  padding-left: 100px;
+  height: 100%;
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.377);
+}
+
+.navbarUl {
+  flex: 1.2;
+}
+
+.background-hero-home {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/bg6.png);
+  background-size: cover;
+}
+.background-hero-tv {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/bg4.png);
+  background-size: cover;
+}
+.background-hero-movie {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/bg2.png);
+  background-size: cover;
+}
+
+.hero .text-size {
+  font-size: 5em;
+}
+
+.btn-watch {
+  background-color: #e50914 !important;
+}
+
+.tv-s {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.114);
+}
+
+.bg-black {
+  background-color: black !important;
+}
+
+.sectionSeries {
+  box-shadow: -20px -20px 10px rgba(0, 0, 0, 0.765);
+}
+
+.formModal::-webkit-input-placeholder {
+  color: white !important;
+}
+
+.formPayment {
+  background-color: #343434 !important;
+}
+
+/* .formPayment::-webkit-input-placeholder {
+  color: #a9a9a9 !important;
+} */
+
+.btn-full {
+  width: 100%;
+}
+
+.mod-fot {
+  flex-direction: column !important;
+}
+
+.here {
+  color: rgb(255, 58, 94);
+  cursor: pointer;
+}
+
+.dropDivid {
+  padding-bottom: 1px;
+  padding-top: 1px;
+}
+
+.sectionMain {
+  width: 80%;
+  margin: auto;
+}
+
+.cardEpisode {
+  width: 40%;
+  margin-left: auto;
+}
+
+.pDetailMain {
+  font-size: 12px;
+}
+
+.imgDummyDetail {
+  height: 250px !important;
+  width: 400px !important;
+  object-fit: cover;
+}
+
+.imgEpisode {
+  position: relative;
+  object-fit: cover;
+  opacity: 0.5;
+  width: 100%;
+}
+
+.cardEpisode {
+  position: relative;
+}
+
+.cardEpisode::after {
+  content: "In Play Now";
+  position: absolute;
+  font-weight: bold;
+  display: block;
+  color: white;
+  left: 40%;
+  top: 35%;
+}
+
+.changePhotoBtn {
+  width: 100%;
+}
+
+.sectionPayment {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  height: 93vh;
+}
+
+.pPayment {
+  font-size: 17px;
+}
+
+.btnSubmitPayment {
+  background-color: #cf202c !important;
+  width: 100%;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.placeHolderFile {
+  background-color: white !important;
+  justify-content: space-between;
+  color: #cf202c !important;
+  font-weight: bold;
+  line-height: 50px;
+  text-align: left;
+  cursor: pointer;
+  padding: 0 15px;
+  display: flex;
+  height: 50px;
+  width: 100%;
+}

@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  background-color: black !important;
+}
+
+.basePage {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+/* 
+.navbar {
+  height: 7vh;
+} */
+
+.navDrop .dropdown-toggle::after {
+  display: none;
+}
+
+.filmDropdown {
+  width: 25px;
+  height: 25px;
+}
+
+.tblContainer {
+  width: 100%;
+  /* background-color: aqua; */
+  /* margin-top: 25vh;
+  margin-left: 25vh; */
+}
+
+.tblTransaction {
+  text-align: center;
+}
+
+Table.tblTransaction td,
+Table.tblTransaction th {
+  padding: 15px;
+}
+
+Table.tblTransaction {
+  width: 90%;
+}
+
+.tblTransaction th {
+  color: rgb(212, 4, 4);
+}
+
+/* .caretDownIcon {
+  width: 20px;
+  height: 20px;
+} */
+
+.dropdowns .dropdown-toggle::after {
+  border-width: 8px;
+  color: rgb(4, 161, 239);
+}
+
+.formContainer {
+  width: 100%;
+  /* background-color: aqua; */
+  /* margin-top: 25vh;
+  margin-left: 25vh; */
+}
+
+.description {
+  /* background-color: rgb(67, 67, 67); */
+}
+
+.addFilmTitle {
+  margin-left: 7vw;
+}
+
+.filmForm .form-control,
+.filmForm .form-select {
+  height: 38px;
+}
+
+.filmForm .form-control:not(active),
+.filmForm .form-control:focus {
+  color: white;
+  background-color: #494949;
+}
+
+.filmForm .form-select {
+  color: rgb(216, 216, 216);
+  background-color: rgb(73, 73, 73);
+}
+
+.filmForm .form-control::placeholder {
+  color: #cdcdcd;
+}
+
+.addTitle {
+  width: 25vw;
+}
+.input-img {
+  background-color: #494949;
+  height: 5.3vh;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 20vw;
+  border: 1px solid white;
+}
+.input-img p span {
+  padding-left: 8px;
+  opacity: 1;
+  display: block;
+  color: #cdcdcd;
+  margin-top: 5px;
+}
+.input-img img {
+  width: 15px;
+  height: 25px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.uploadIcon {
+  width: 23px;
+  height: 23px;
+}
+
+.addEpisode {
+  background-color: #494949;
+  font-weight: 900;
+  font-size: medium;
+}
+
+.inputAdd {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.modalVideo {
+  margin-top: 30vh;
+  width: 100%;
+}
+
+.input-img-eps {
+  background-color: #494949;
+  height: 5.3vh;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 20vw;
+  border: 1px solid white;
+}
