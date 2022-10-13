@@ -109,35 +109,50 @@ function BasicExample() {
 
   return (
     <div style={{ height: "100vh", backgroundColor: "black" }}>
-      <div className="d-flex justify-content-center">
+      <div
+        className="d-flex justify-content-center"
+        style={{ marginTop: "100px" }}
+      >
         <h1 className="text-light text-center fw-bold mb-5">Premium</h1>
+      </div>
+
+      <div>
+        <p className="fw-bold fs-2  text-center" style={{ color: "yellow" }}>
+          DISCOUNT GRAND LAUNCING!!!
+        </p>
+        <p className="text-light text-center">
+          Bayar{" "}
+          <span className="fw-bold" style={{ color: "yellow" }}>
+            hanya Rp. 30.000,00-{" "}
+            <span className="text-decoration-line-through text-muted">
+              Rp. 65.000,00-
+            </span>
+          </span>{" "}
+        </p>
 
         <p className="text-light text-center">
-          Bayar sekarang dan nikmati streaming film-film kekinian dari{" "}
-          <spam className="fw-bold" style={{ color: "red" }}>
+          dan nikmati streaming film-film kekinian dari{" "}
+          <span className="fw-bold" style={{ color: "red" }}>
             DUMBFLIX
-          </spam>
+          </span>
         </p>
+
         <p className="text-light text-center fw-bold">
-          <spam className="fw-bold" style={{ color: "red" }}>
+          info lebih lanjut hubungi
+        </p>
+
+        <p className="text-light text-center">
+          <span className="fw-bold" style={{ color: "red" }}>
             DUMBFLIX{" "}
-          </spam>
+          </span>
           : 0981312323
         </p>
 
-        <Form className="mt-5 w-50" style={{ backgroundColor: "black" }}>
-          <Form.Group
-            className="mb-3 mt-5 w-50 mx-auto"
-            controlId="accountNumber"
-          >
-            <Form.Control
-              className="bg-dark text-light"
-              type="text"
-              placeholder="Input your account number"
-            />
-          </Form.Group>
-
-          <Form.Group
+        <Form
+          className="mt-5 w-50 mx-auto"
+          style={{ backgroundColor: "black" }}
+        >
+          {/* <Form.Group
             className="mb-5 w-50 mx-auto"
             controlId="formBasicPassword"
           >
@@ -155,16 +170,16 @@ function BasicExample() {
               ref={inputFileRef}
               style={{ display: "none" }}
             />
-          </Form.Group>
+          </Form.Group> */}
 
           <div className="w-100">
             <Button
               onClick={(e) => handleBuy.mutate(e)}
-              className="mb-3 w-50 mx-auto d-flex justify-content-center fw-semibold"
+              className="mb-3 w-50 mx-auto fw-bold d-flex justify-content-center"
               style={{ backgroundColor: "red" }}
               type="submit"
             >
-              Kirim
+              Activasi Member Sekarang?
             </Button>
           </div>
         </Form>
