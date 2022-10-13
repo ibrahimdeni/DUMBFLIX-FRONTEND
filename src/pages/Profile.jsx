@@ -26,7 +26,7 @@ function Profile() {
       <Container>
         <Row className="justify-content-center">
           <Col md={8} className="mt-5 mb-5">
-            <Card className="rounded shadow border-0 bg-danger text-white p-5">
+            <Card className="rounded shadow border-0 text-white p-5">
               <div className="d-flex justify-content-between">
                 <div className="me-5 w-75">
                   <h3>Personal Info</h3>
@@ -110,7 +110,7 @@ function Profile() {
                     </div>
                   </div>
                 </div>
-                <div className="d-flex bg-warning w-50 flex-column align-items-center justify-content-center">
+                <div className="d-flex w-50 flex-column align-items-center justify-content-center">
                   <img
                     className="rounded w-100"
                     src={profileUser}
