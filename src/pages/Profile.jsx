@@ -67,7 +67,7 @@ function Profile() {
                         style={{ color: "red" }}
                       />
                       <div>
-                        <h5>{state.user.subscribe}</h5>
+                        <h5>{state.user.role}</h5>
                         <p className="text-muted">Status</p>
                       </div>
                     </div>
