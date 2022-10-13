@@ -110,7 +110,7 @@ function Profile() {
                     </div>
                   </div>
                 </div>
-                <div className="d-flex bg-warning w-25 flex-column px-3 align-items-center justify-content-center">
+                <div className="d-flex bg-warning w-25 flex-column align-items-center justify-content-center">
                   <img
                     className="rounded w-100"
                     src={profileUser}
