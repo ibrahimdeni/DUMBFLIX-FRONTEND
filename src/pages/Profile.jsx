@@ -112,10 +112,10 @@ function Profile() {
                 </div>
                 <div className="d-flex bg-warning w-25 flex-column px-3 align-items-center justify-content-center">
                   <img
-                    className="rounded w-100"
+                    className="rounded w-100 h-75"
                     src={profileUser}
                     alt="nophoto"
-                    height={400}
+                    style={{ objectFit: "cover" }}
                   />
                   <Button
                     style={{ backgroundColor: "red" }}
